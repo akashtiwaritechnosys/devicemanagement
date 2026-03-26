@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_periodicalmaintainence</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_periodicalmaintainence` (
+    `periodicalmaintainenceid` int(11) NOT NULL DEFAULT '0',
+      `subject` VARCHAR(128) DEFAULT NULL,
+      PRIMARY KEY (`periodicalmaintainenceid`)
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_periodicalmaintainencecf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_periodicalmaintainencecf` (
+  `periodicalmaintainenceid` int(11) NOT NULL,
+  PRIMARY KEY (`periodicalmaintainenceid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>

@@ -1,0 +1,590 @@
+/* Generated CSS */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+	--body-bg-color: #edeff1;
+	--white-color: #ffffff;
+	--white-color-2: #fcfcfc;
+	--white-color-3: #e1e1e1;
+	--dark-blue-color: #012233;
+	--green-color: #33ed88;
+	--black-color: #111111;
+	--black-color-2: #000;
+	--black-color-3: #212529;
+	--light-color: #595959;
+	--light-color-2: #edeff1;
+	--light-color-3: #414141;
+	--light-color-4: #cccccc;
+	--light-color-5: #f8f7fa;
+	--light-color-6: #848891;
+	--text-dark-color: #425040;
+	--text-light-color: #848891;
+	--border-light-color: #cccccc;
+	--border-light-color-2: #dddddd;
+	--muted-color: #6b7280;
+	--pink-color: #e83874;
+	--orange-color: #ffa500;
+	--blue-color: #135fd7;
+	
+	/* Primary  Color*/
+	--primary-color: #487fff;
+	/* secondary  Color*/
+	--secondary-color: #4c97ff;
+	
+	/* Primary Button */
+	--btn-primary-bg: #487fff;
+	--btn-primary-text: #fff;
+	--btn-primary-border :#487fff;
+	--btn-primary-hover-bg: #1748ba;
+	--btn-primary-hover-text: #fff;
+	--btn-primary-hover-border: #1748ba;
+	--btn-primary-disabled-bg: #212529;
+	--btn-primary-disabled-text: #cccccc;
+	
+	/* Secondary Button */
+	--btn-secondary-bg: #c5d4e19c;
+	--btn-secondary-text: #487fff;
+	--btn-secondary-border: #487fff;
+	--btn-secondary-hover-bg: #1748ba;
+	--btn-secondary-hover-text: #fff;
+	--btn-secondary-hover-border: #1748ba;
+	--btn-secondary-disabled-bg: #f8f7fa;
+	--btn-secondary-disabled-text: #595959;
+	
+	/* Sidebar */
+	--sidebar-bg-color: #fff;
+	--sidebar-text-color: #444050;
+	--sidebar-hover-text: #f0f0f0;
+	--sidebar-hover-bg: #487fff;
+	/* --color-sidebar-active: #2563eb; */
+	--color-subsidebar-bg-hover: #e4f1ff;
+	--color-subsidebar-text-hover: #444050;
+	
+	/* Success, Warning, Error */
+	--bg-success: #33ed88;
+	--bg-success-hover: #12cf90ee;
+	--text-success: #000000;
+	--warning-bg-color: #ffa2014a;
+	--warning-text-color: #f59e0b;
+	--warning-color-2: #f59e0b;
+	--alert-bg-color: #487fff;
+	--alert-text-color: #ffffff;
+	--red-bg-color: #ff0000;
+	--red-light-bg-color: #e6141436;
+	--red-text-color: #e61414cb;
+	--red-color-2: #ff0000;
+	
+		/* Chart Colors  */
+	--chart-color-1:#487fff;
+	--chart-color-2:#79a8ce;
+	--chart-color-3:#00E396;
+	--chart-color-4:#E83874;
+	--chart-color-5:#f79533c2;
+	--chart-color-6:#ef6e4d;
+	--chart-color-7:#ffa9a5;
+	
+	/* Font Family */
+	--font-primary: "Urbanist", sans-serif;
+	--font-secondary: "Inter", sans-serif;
+	}
+
+	.dark-mode  {
+	--body-bg-color: #edeff1;
+	--white-color: #ffffff;
+	--white-color-2: #fcfcfc;
+	--white-color-3: #e1e1e1;
+	--dark-blue-color: #012233;
+	--green-color: #33ed88;
+	--black-color: #111111;
+	--black-color-2: #000;
+	--black-color-3: #212529;
+	--light-color: #595959;
+	--light-color-2: #edeff1;
+	--light-color-3: #414141;
+	--light-color-4: #cccccc;
+	--light-color-5: #f8f7fa;
+	--light-color-6: #848891;
+	--text-dark-color: #425040;
+	--text-light-color: #848891;
+	--border-light-color: #cccccc;
+	--border-light-color-2: #dddddd;
+	--muted-color: #6b7280;
+	--pink-color: #e83874;
+	--orange-color: #ffa500;
+	--blue-color: #135fd7;
+	
+	/* Primary  Color*/
+	--primary-color: #F79533;
+	/* secondary  Color*/
+	--secondary-color: #eb9a49e7;
+	
+	/* Primary Button */
+	--btn-primary-bg: #F79533;
+	--btn-primary-text: #fff;
+	--btn-primary-border :#F79533;
+	--btn-primary-hover-bg: #e57406;
+	--btn-primary-hover-text: #fff;
+	--btn-primary-hover-border: #e57406;
+	--btn-primary-disabled-bg: #212529;
+	--btn-primary-disabled-text: #cccccc;
+	
+	/* Secondary Button */
+	--btn-secondary-bg: #f795334d;
+	--btn-secondary-text: #F79533;
+	--btn-secondary-border: #F79533;
+	--btn-secondary-hover-bg: #e57406;
+	--btn-secondary-hover-text: #fff;
+	--btn-secondary-hover-border: #e57406;
+	--btn-secondary-disabled-bg: #f8f7fa;
+	--btn-secondary-disabled-text: #595959;
+	
+	/* Sidebar */
+	--sidebar-bg-color: #1f1f1f;
+    --sidebar-text-color: #cccccc;
+    --sidebar-hover-text: #ffffff;
+    --sidebar-hover-bg: #ff5722;
+    --color-subsidebar-bg-hover: #333333;
+    --color-subsidebar-text-hover: #cccccc;
+	
+	/* Success, Warning, Error */
+	--bg-success: #33ed88;
+	--bg-success-hover: #12cf90ee;
+	--text-success: #000000;
+	--warning-bg-color: #ffa2014a;
+	--warning-text-color: #f59e0b;
+	--warning-color-2: #f59e0b;
+	--alert-bg-color: #487fff;
+	--alert-text-color: #ffffff;
+	--red-bg-color: #ff0000;
+	--red-light-bg-color: #e6141436;
+	--red-text-color: #e61414cb;
+	--red-color-2: #ff0000;
+	
+		/* Chart Colors  */
+	--chart-color-1:#487fff;
+	--chart-color-2:#79a8ce;
+	--chart-color-3:#00E396;
+	--chart-color-4:#E83874;
+	--chart-color-5:#f79533c2;
+	--chart-color-6:#ef6e4d;
+	--chart-color-7:#ffa9a5;
+	
+	/* Font Family */
+	--font-primary: "Urbanist", sans-serif;
+	--font-secondary: "Inter", sans-serif;
+	}
+
+
+.secondary-color {
+color: var(--secondary-color);
+}
+
+.primary-color {
+color: var(--primary-color);
+}
+.primary-color-2 {
+color: var(--primary-color-2);
+}
+.black-color {
+color: var(--black-color);
+}
+.black-color-2 {
+color: var(--black-color-2);
+}
+.secondary-color {
+color: var(--secondary-color);
+}
+.secondary-color-2 {
+color: var(--secondary-color-2);
+}
+.light-color {
+color: var(--light-color);
+}
+.light-color-2 {
+color: var(--light-color-2);
+}
+.light-color-3 {
+color: var(--light-color-3);
+}
+.light-color-4 {
+color: var(--light-color-4);
+}
+
+.white-color {
+color: var(--white-color);
+}
+.white-color-2 {
+color: var(--white-color-2);
+}
+.error-color {
+color: var(--error-color);
+}
+
+/* background color  */
+.bg-primary-color {
+background-color: var(--primary-color);
+}
+.bg-primary-color-2 {
+background-color: var(--primary-color-2);
+}
+.bg-black-color {
+background-color: var(--black-color);
+}
+.bg-black-color-2 {
+background-color: var(--black-color-2);
+}
+.bg-secondary-color {
+background-color: var(--secondary-color);
+}
+.bg-secondary-color-2 {
+background-color: var(--secondary-color-2);
+}
+.bg-light-color {
+background-color: var(--light-color);
+}
+.bg-light-color-2 {
+background-color: var(--light-color-2);
+}
+.bg-light-color-3 {
+background-color: var(--light-color-3);
+}
+.bg-light-color-4 {
+background-color: var(--light-color-4);
+}
+.bg-white-color {
+background-color: var(--white-color);
+}
+.bg-white-color-2 {
+background-color: var(--white-color-2);
+}
+.redColor {
+color: var(--red-color-2);
+}
+
+body {
+background-color: var(--body-bg-color) !important;
+font-family: var(--font-secondary);
+}
+
+a:hover {
+color: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: "Urbanist", sans-serif;
+font-weight: 700;
+}
+
+h1 {
+font-size: 45px;
+}
+
+h2 {
+font-size: 42px;
+}
+
+h3 {
+font-size: 30px;
+}
+
+h4 {
+font-size: 25px;
+}
+
+h5 {
+font-size: 20px;
+}
+
+h6 {
+font-size: 18px;
+}
+
+p {
+font-size: 16px;
+font-family: "Inter", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+span {
+font-size: 14px;
+font-family: "Inter", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+label {
+font-family: "Inter", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 14px;
+}
+.checkbox label,
+.radio label {
+font-size: 14px;
+font-family: "Inter", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+a,
+button {
+font-family: "Inter", sans-serif;
+font-weight: 500;
+font-style: normal;
+cursor: pointer;
+text-decoration: none;
+}
+
+/* .bg-blue-btn {
+background-color: var(--primary-color);
+color: var(--secondary-color);
+border: none;
+border-radius: 5px;
+&:hover {
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+}
+}
+.bg-hover-blue {
+background-color: var(--secondary-color);
+color: var(--primary-color);
+	border: none;
+border-radius: 5px;
+&:hover {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+}
+}
+.cancel-btn {
+background-color: red;
+color: var(--white-color);
+&:hover {
+	background-color: #e61414cb;
+}
+}
+.plus-btn {
+border: 1px solid #cfcfcf;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+} */
+/* primary font  */
+
+.urbanist-thin {
+font-family: "Urbanist", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+.urbanist-extralight {
+font-family: "Urbanist", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+.urbanist-light {
+font-family: "Urbanist", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.urbanist-regular {
+font-family: "Urbanist", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.urbanist-medium {
+font-family: "Urbanist", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.urbanist-semibold {
+font-family: "Urbanist", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.urbanist-bold {
+font-family: "Urbanist", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.urbanist-extrabold {
+font-family: "Urbanist", sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+.urbanist-black {
+font-family: "Urbanist", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+.urbanist-thin-italic {
+font-family: "Urbanist", sans-serif;
+font-weight: 100;
+font-style: italic;
+}
+
+.urbanist-extralight-italic {
+font-family: "Urbanist", sans-serif;
+font-weight: 200;
+font-style: italic;
+}
+
+.urbanist-light-italic {
+font-family: "Urbanist", sans-serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.urbanist-regular-italic {
+font-family: "Urbanist", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.urbanist-medium-italic {
+font-family: "Urbanist", sans-serif;
+font-weight: 500;
+font-style: italic;
+}
+
+.urbanist-semibold-italic {
+font-family: "Urbanist", sans-serif;
+font-weight: 600;
+font-style: italic;
+}
+
+.urbanist-bold-italic {
+font-family: "Urbanist", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.urbanist-extrabold-italic {
+font-family: "Urbanist", sans-serif;
+font-weight: 800;
+font-style: italic;
+}
+
+.urbanist-black-italic {
+font-family: "Urbanist", sans-serif;
+font-weight: 900;
+font-style: italic;
+}
+
+/* secondary font  */
+
+.inter-thin {
+font-family: "Inter", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+.inter-extralight {
+font-family: "Inter", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+.inter-light {
+font-family: "Inter", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.inter-regular {
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.inter-medium {
+font-family: "Inter", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.inter-semibold {
+font-family: "Inter", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.inter-bold {
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.inter-extrabold {
+font-family: "Inter", sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+.inter-black {
+font-family: "Inter", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+.inter-thin-italic {
+font-family: "Inter", sans-serif;
+font-weight: 100;
+font-style: italic;
+}
+
+.inter-extralight-italic {
+font-family: "Inter", sans-serif;
+font-weight: 200;
+font-style: italic;
+}
+
+.inter-light-italic {
+font-family: "Inter", sans-serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.inter-regular-italic {
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.inter-medium-italic {
+font-family: "Inter", sans-serif;
+font-weight: 500;
+font-style: italic;
+}
+
+.inter-semibold-italic {
+font-family: "Inter", sans-serif;
+font-weight: 600;
+font-style: italic;
+}
+
+.inter-bold-italic {
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.inter-extrabold-italic {
+font-family: "Inter", sans-serif;
+font-weight: 800;
+font-style: italic;
+}
+
+.inter-black-italic {
+font-family: "Inter", sans-serif;
+font-weight: 900;
+font-style: italic;
+}

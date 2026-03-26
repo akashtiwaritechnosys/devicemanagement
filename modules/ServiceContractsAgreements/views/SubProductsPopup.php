@@ -1,0 +1,3 @@
+<?php
+
+class ServiceContractsAgreements_SubProductsPopup_View extends Inventory_SubProductsPopup_View {}

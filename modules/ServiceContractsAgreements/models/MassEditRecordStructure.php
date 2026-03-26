@@ -1,0 +1,3 @@
+<?php
+
+class ServiceContractsAgreements_MassEditRecordStructure_Model extends Inventory_MassEditRecordStructure_Model {}

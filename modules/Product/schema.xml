@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_product</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_product` (
+    `productid` int(11) NOT NULL DEFAULT '0',
+      `model_number` VARCHAR(128) DEFAULT NULL,
+      PRIMARY KEY (`productid`)
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_productcf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_productcf` (
+  `productid` int(11) NOT NULL,
+  PRIMARY KEY (`productid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>

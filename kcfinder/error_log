@@ -1,0 +1,111 @@
+[11-May-2021 00:34:12 America/Chicago] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home4/kalpdeep/public_html/bizuiaccountingcrm/kcfinder/core/autoload.php on line 15
+[11-May-2021 00:34:12 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home4/kalpdeep/public_html/bizuiaccountingcrm/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home4/kalpdeep/public_html/bizuiaccountingcrm/kcfinder/upload.php(16): uploader->__construct()
+#1 {main}
+  thrown in /home4/kalpdeep/public_html/bizuiaccountingcrm/kcfinder/core/uploader.php on line 50
+[28-Jun-2024 05:31:50 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/browser.php(21): uploader->__construct()
+#1 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/browse.php(16): browser->__construct()
+#2 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50
+[28-Jun-2024 05:32:07 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/browser.php(21): uploader->__construct()
+#1 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/browse.php(16): browser->__construct()
+#2 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50
+[28-Jun-2024 05:32:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/upload.php(16): uploader->__construct()
+#1 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50
+[28-Jun-2024 05:32:24 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/browser.php(21): uploader->__construct()
+#1 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/browse.php(16): browser->__construct()
+#2 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50
+[28-Jun-2024 05:32:56 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/browser.php(21): uploader->__construct()
+#1 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/browse.php(16): browser->__construct()
+#2 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50
+[28-Jun-2024 05:33:10 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/browser.php(21): uploader->__construct()
+#1 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/browse.php(16): browser->__construct()
+#2 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50
+[28-Jun-2024 05:33:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/upload.php(16): uploader->__construct()
+#1 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50
+[28-Jun-2024 05:33:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/browser.php(21): uploader->__construct()
+#1 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/browse.php(16): browser->__construct()
+#2 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50
+[28-Jun-2024 05:33:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/browser.php(21): uploader->__construct()
+#1 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/browse.php(16): browser->__construct()
+#2 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50
+[02-Jul-2024 04:23:05 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/browser.php(21): uploader->__construct()
+#1 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/browse.php(16): browser->__construct()
+#2 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50
+[02-Jul-2024 04:23:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/browser.php(21): uploader->__construct()
+#1 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/browse.php(16): browser->__construct()
+#2 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50
+[02-Jul-2024 04:23:31 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/browser.php(21): uploader->__construct()
+#1 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/browse.php(16): browser->__construct()
+#2 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50
+[02-Jul-2024 04:24:39 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/browser.php(21): uploader->__construct()
+#1 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/browse.php(16): browser->__construct()
+#2 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50
+[02-Jul-2024 04:24:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/browser.php(21): uploader->__construct()
+#1 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/browse.php(16): browser->__construct()
+#2 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50
+[02-Jul-2024 04:24:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/browser.php(21): uploader->__construct()
+#1 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/browse.php(16): browser->__construct()
+#2 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50
+[02-Jul-2024 04:24:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/browser.php(21): uploader->__construct()
+#1 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/browse.php(16): browser->__construct()
+#2 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50
+[02-Jul-2024 04:25:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/upload.php(16): uploader->__construct()
+#1 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50
+[02-Jul-2024 04:25:24 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function vtlib_purify() in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php:50
+Stack trace:
+#0 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/browser.php(21): uploader->__construct()
+#1 /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/browse.php(16): browser->__construct()
+#2 {main}
+  thrown in /home2/bitechnosys/epsilon-crm-doctor.com/kcfinder/core/uploader.php on line 50

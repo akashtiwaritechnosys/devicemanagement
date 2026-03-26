@@ -1,0 +1,11 @@
+2025-03-20 12:32:04 Function called with owner=911
+2025-03-20 12:32:04 Owner SQL:  AND vtiger_crmentity.smownerid = ? 
+2025-03-20 12:32:04 Query: SELECT COUNT(*) as count, 
+				  CASE WHEN vtiger_troubletickets.status IS NULL OR vtiger_troubletickets.status = "" 
+					   THEN "" ELSE vtiger_troubletickets.status END AS statusvalue 
+				  FROM vtiger_troubletickets 
+				  INNER JOIN vtiger_crmentity ON vtiger_troubletickets.ticketid = vtiger_crmentity.crmid 
+					  AND vtiger_crmentity.deleted = 0  AND vtiger_crmentity.smownerid = ?   LEFT JOIN vtiger_ticketstatus ON vtiger_troubletickets.status = vtiger_ticketstatus.ticketstatus WHERE vtiger_troubletickets.status IN (?,?,?,?,?,?,?) GROUP BY statusvalue ORDER BY vtiger_ticketstatus.sortorderid
+2025-03-20 12:32:04 Params: ["911","Open","In Progress","On Hold","Resolved","Closed","Spare Part","Spare Part By Head"]
+2025-03-20 12:32:04 Rows found: 0
+2025-03-20 12:32:04 Final result: {"OpenCount":"0","InProgressCount":"0","OnHoldCount":"0","ResolvedCount":"0","ClosedCount":"0","SparePartCount":"0","SparePartByHeadCount":"0"}
