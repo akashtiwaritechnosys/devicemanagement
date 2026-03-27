@@ -27,7 +27,7 @@
                     <hr style="margin: 5px 0;">
                     <div class="list-menu-content">
                         <div id="{$SIDEBARWIDGET->get('linklabel')}" class="sidebar-widget-body activitytypes">
-                            <div style="text-align:center;"><img src="layouts/v7/skins/images/loading.gif"></div>
+                            <div class="loader"  style="text-align:center;"><img src="layouts/v7/skins/images/loading.gif"></div>
                         </div>
                     </div>
                 </div>
