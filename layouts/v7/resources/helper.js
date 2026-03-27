@@ -496,7 +496,8 @@ jQuery.Class("Vtiger_Helper_Js",{
         if(message !== undefined) {
             messageHTML = '<div class="message"><span>'+message+'</span></div>';
         }
-        messageBar.html('<div style="text-align:center;position:fixed;top:50%;left:40%;"><img src="'+app.vimage_path('loading.gif')+'">'+ messageHTML +'</div>');
+        messageBar.html('<div class="loading-inner"><img src="'+app.vimage_path('loading.gif')+'">'+ messageHTML +'</div>');
+        
     },
 
     hideProgress : function() {
